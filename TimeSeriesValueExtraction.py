@@ -1,5 +1,5 @@
 """
-    Author: Zhiwen Zhu
+    Author: Leta Spencer, Yiwen Hu & Zhiwen Zhu
     Date: March 6, 2017
     Decription: This script automates the process of extracting attribute values
                 from time series data to point feature class
