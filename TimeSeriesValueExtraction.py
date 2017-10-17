@@ -225,9 +225,9 @@ if __name__ == "__main__":
     aggregateLevel = arcpy.GetParameterAsText(6) #this could be "daily", "monthly", "yearly"
     
     #default blank mxd Path,used to create PDF map
-    blankMxdPath = r"\\fs.ad.clarku.edu\class\IDCE30274-01-S17\Commons\4_Leta_Yiwen_Zhiwen\Data\MXD\blank.mxd"
+    blankMxdPath = r"\Data\MXD\blank.mxd"
     #default symbology layer,used to update symbology for new layers
-    symbolLayer = r"\\fs.ad.clarku.edu\class\IDCE30274-01-S17\Commons\4_Leta_Yiwen_Zhiwen\Data\layerSymbology.lyr" 
+    symbolLayer = r"\Data\layerSymbology.lyr" 
 
     featurefolder = os.path.dirname(featureClass)
     arcpy.AddMessage("Start extraction: ")
